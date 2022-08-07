@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div style="position: relative;">
+    <div style="position: absolute; display: flex; width: 100%; justify-content: center;">
+        <!-- player health -->
+        <div style="background-color: yellow; height: 60px; width: 20%;">
+            <h2 style="text-align: center;">player 1</h2>
+
+            <h2 id="player-health" style="text-align: center;">health</h2>
+        </div>
+        <!-- timer -->
+        <div style="background-color: red; height: 60px; width: 100px;">
+            <h2 id="timer" style="text-align: center;"> 200 <br> seconds </h2>
+        </div>
+        <!-- enemy health -->
+        <div style="background-color: yellow; height: 60px; width: 20%; ">
+            <h2 style="text-align: center;">player 2</h2>
+            <h2 id="enemy-health" style="text-align: center;">health</h2>
+        </div>
+    </div>
+    <canvas style="display: block; margin: 0 auto;" width="1024" height="576"></canvas>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
